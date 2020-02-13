@@ -26,27 +26,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="ini" value="5" />
-          <entry key="java" value="7" />
+          <entry key="ini" value="6" />
+          <entry key="java" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Ini" value="4" />
-          <entry key="JAVA" value="7" />
+          <entry key="Ini" value="5" />
+          <entry key="JAVA" value="12" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="ini" value="54" />
-          <entry key="java" value="1582" />
+          <entry key="java" value="1911" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Ini" value="35" />
-          <entry key="JAVA" value="1582" />
+          <entry key="JAVA" value="1911" />
           <entry key="PLAIN_TEXT" value="19" />
         </counts>
       </usages-collector>
@@ -54,35 +54,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fly/MyRealm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="574">
+              <caret line="45" column="20" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="45" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fly/PermissionRealm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/fly/shiroTest.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="905">
+              <caret line="176" column="106" selection-start-line="176" selection-start-column="106" selection-end-line="176" selection-end-column="106" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/shiro-permission-realm.ini">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
-              <caret line="169" lean-forward="true" selection-end-line="169" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/shiro-permission.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="17" lean-forward="true" selection-end-line="11" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fly/PasswordRealm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -111,7 +120,9 @@
         <option value="$PROJECT_DIR$/src/resources/shiro-cryptography.ini" />
         <option value="$PROJECT_DIR$/src/main/java/com/fly/PasswordRealm.java" />
         <option value="$PROJECT_DIR$/src/resources/shiro-permission.ini" />
+        <option value="$PROJECT_DIR$/src/resources/shiro-permission-realm.ini" />
         <option value="$PROJECT_DIR$/src/test/java/com/fly/shiroTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fly/PermissionRealm.java" />
       </list>
     </option>
   </component>
@@ -252,10 +263,15 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581577786680" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581580945740" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fly" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -269,7 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.shiroTest.testHasRole">
+  <component name="RunManager" selected="JUnit.shiroTest.testHasRoleByRealm">
     <configuration name="MD5Test.testMD5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shiro" />
       <extension name="coverage">
@@ -302,7 +318,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="shiroTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="shiroTest.testHasRoleByRealm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shiro" />
       <extension name="coverage">
         <pattern>
@@ -312,7 +328,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.fly" />
       <option name="MAIN_CLASS_NAME" value="com.fly.shiroTest" />
-      <option name="METHOD_NAME" value="testLogin" />
+      <option name="METHOD_NAME" value="testHasRoleByRealm" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -351,19 +367,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.shiroTest.testLogin" />
       <item itemvalue="JUnit.shiroTest.testLoginByMyRealm" />
       <item itemvalue="JUnit.MD5Test.testMD5" />
       <item itemvalue="JUnit.shiroTest.testLoginByPasswordRealm" />
       <item itemvalue="JUnit.shiroTest.testHasRole" />
+      <item itemvalue="JUnit.shiroTest.testHasRoleByRealm" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.shiroTest.testHasRoleByRealm" />
         <item itemvalue="JUnit.shiroTest.testHasRole" />
         <item itemvalue="JUnit.shiroTest.testLoginByPasswordRealm" />
         <item itemvalue="JUnit.MD5Test.testMD5" />
         <item itemvalue="JUnit.shiroTest.testLoginByMyRealm" />
-        <item itemvalue="JUnit.shiroTest.testLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -381,7 +397,7 @@
       <workItem from="1581490492988" duration="432000" />
       <workItem from="1581490961657" duration="1785000" />
       <workItem from="1581492775836" duration="4302000" />
-      <workItem from="1581557568437" duration="14174000" />
+      <workItem from="1581557568437" duration="17200000" />
     </task>
     <servers />
   </component>
@@ -418,10 +434,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22746000" />
+    <option name="totallyTimeSpent" value="25772000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26340482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -432,7 +449,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6713881" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20679887" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -482,20 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fly/MyRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="45" column="20" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="45" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/shiro-cryptography.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -530,13 +533,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/fly/shiroTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fly/MyRealm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="169" lean-forward="true" selection-end-line="169" />
+        <state relative-caret-position="574">
+          <caret line="45" column="20" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="45" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/shiro-permission-realm.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/fly/shiroTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="905">
+          <caret line="176" column="106" selection-start-line="176" selection-start-column="106" selection-end-line="176" selection-end-column="106" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fly/PermissionRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
         </state>
       </provider>
     </entry>

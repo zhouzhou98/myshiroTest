@@ -166,4 +166,30 @@ public class shiroTest {
         System.out.println(subject.isPermittedAll("user:delete","user:list"));
         //判断当前用户是否拥有某几个权限,没有返回值
     }
+
+
+
+
+
+    @Test
+    public void testHasRoleByRealm()throws Exception{
+        //1:创建SecurityManager工厂,加载配置文件，创建工厂对象
+        Factory<SecurityManager> factory = new IniSecurityManagerFactory("classpath:shiro-permission-realm.ini");
+        //2:通过工厂对象，创建SecurityManager对象
+        SecurityManager securityManager=factory.getInstance();
+        //3:将securityManager绑定到当前的运行环境中：让系统随时随地都可以访问securityManager对象
+        SecurityUtils.setSecurityManager(securityManager);
+        //4:获取当前登录的主题,注意此时的主体还没有经过认证
+        Subject subject = SecurityUtils.getSubject();
+        UsernamePasswordToken token=new UsernamePasswordToken("zhangsan","666");
+        subject.login(token);
+        //进行授权时操作前提：用户必须通过验证
+        //判断当前用户是否拥有某个角色:true表示拥有，false：没有
+        System.out.println(subject.hasRole("role1"));
+
+        System.out.println("----------------------------");
+        //判断当前用户是否拥有某几个权限
+        System.out.println(subject.isPermitted("user:delete"));
+
+    }
 }
